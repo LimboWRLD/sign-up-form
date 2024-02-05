@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Limbo</title>
+    <link rel="stylesheet" href="test.css">   
+</head>
+<body>
+    <div class="holder"> 
+        <div class="left-side">
+            <div class="logo-txt">
+                <img src="./imgs/Limbo__1_-removebg-preview.png" alt="" class="logo"  height="100%">
+                <h1 class="logo-name">Limbo</h1>
+            </div>
+            <img src="./imgs/photo-1530128118208-89f6ce02b37b.avif" alt="" class="back"><p class="credit">Photo by <a href="https://unsplash.com/photos/puddle-on-ground-Ar6eXpQaCwk">Ed Leszczynskl</a> on <a href="https://unsplash.com/">Unsplash.</a></p>
+            
+        </div>
+        <form action="#">
+            <div class="right-side">
+                <div class="intro-txt">
+                    <p class="intro">
+                        This is not real. If you want it to be,  make it. :)
+                    </p>
+                    <p class="sign up">
+                        Get started!
+                    </p>
+                </div>
+                <div class="inputs">   
+                    <div class="inputBox">
+                        <label for="f-name"></label>
+                        <input type="text" for="f-name" required>
+                        <span>First name</span>
+                    </div>
+                    <div class="inputBox">
+                        <label for="l-name"></label>
+                        <input type="text" for="l-name" required>
+                        <span>Last name</span>
+                    </div>
+                    <div class="inputBox">
+                        <label for="email"></label>
+                        <input type="email" for="email" required>
+                        <span>Email</span>
+                    </div>
+                    <div class="inputBox">
+                        <label for="phone-num"></label>
+                        <input type="tel" for="phone-num" required>
+                        <span>Phone number</span>
+                    </div>
+                    <div class="inputBox">
+                        <label for="password"></label>
+                        <input type="password" name="" id="pass" for="password" required>
+                        <span>Password</span>
+                    </div>
+                    <div class="inputBox">
+                        <label for="password-conf"></label>
+                            <input type="password" name="" id="pass-conf" for="password-conf" required>
+                            <span>Confirm Password</span>
+                    </div>
+                    <div class="submit">
+                        <button type="submit" onclick="checkPasswords(event)" id="submitBtn">Create Account</button>
+                        <p>Already have an account? <a class="highlight">Log in</a></p>
+                    </div>
+                </div> 
+            </div>
+        </form>
+
+    </div>
+</body>
+</html>
